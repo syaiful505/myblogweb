@@ -4,8 +4,9 @@
   "description": "This is my server DB for my blog with NoSQL",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon app.js",
+    "client": "npm start --prefix ../client",
+    "dev": "concurrently  \" npm run server \" \" npm run client \""
   },
   "author": "Syaiful",
   "license": "MIT",
