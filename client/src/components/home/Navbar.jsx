@@ -13,7 +13,8 @@ export default function Navbar() {
 					<div className="col-4">
 						<div className="image-menubar">
 							<Link className="image" to="/">
-								<h1 className="brand">&lt;/&gt; syaifulstyle</h1>
+								<h1><span className="brand">&lt;/&gt; syaifulstyle</span></h1>
+								{/*<h1><span className="brandChange">&lt;/&gt;</span></h1>*/}
 							</Link>
 							<label className="menu_icon" htmlFor="toggle"><BsListUl /></label>
 						</div>

@@ -68,6 +68,9 @@
 			}
 			.brand{
 				color: var(--fixed_white);
+				.brand:hover .brandChange{
+					display: none;
+				}
 			}
 		}
 		.col-8{
