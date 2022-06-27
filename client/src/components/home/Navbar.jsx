@@ -13,11 +13,11 @@ export default function Navbar() {
 					<div className="col-4">
 						<div className="image-menubar">
 							<Link className="image" to="/">
-								<h1 className="brand">&lt;/&gt;
+								<h1 className="brand">&lt;/&gt; 
 									<div className="rotate-words">
-										<span> syaifulstyle</span>
-										<span> Your So Awesome</span>
-										<span> Test</span>
+										<span>syaifulstyle</span>
+										<span>Nice Day</span>
+										<span>Awesome</span>
 									</div>
 								</h1>
 							</Link>
@@ -27,13 +27,13 @@ export default function Navbar() {
 					<div className="col-8">
 						<ul className="link-list toggle">
 							<li className="link-item">
-								<Link to="/about" className="navbar-item">About</Link>
+								<Link to="/about" className="navbar-item navbar-item-ltr">About</Link>
 							</li>
 							<li className="link-item">
-								<Link to="/repository" className="navbar-item">Repository</Link>
+								<Link to="/repository" className="navbar-item navbar-item-ltr">Repository</Link>
 							</li>
 							<li className="link-item">
-								<Link to="/contact" className="navbar-item">Contact</Link>
+								<Link to="/contact" className="navbar-item navbar-item-ltr">Contact</Link>
 							</li>
 							<div className="social-icon">
 								<li className="link-item">
