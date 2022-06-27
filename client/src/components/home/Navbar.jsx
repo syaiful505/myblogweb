@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { FaFacebookSquare,FaYoutube,FaGithubSquare } from "react-icons/fa";
-import { ImLinkedin } from "react-icons/im";
+import { FaYoutube,FaGithubSquare } from "react-icons/fa";
+import { ImLinkedin, ImInstagram } from "react-icons/im";
 import { BsListUl } from "react-icons/bs";
 
 export default function Navbar() {
@@ -13,8 +13,13 @@ export default function Navbar() {
 					<div className="col-4">
 						<div className="image-menubar">
 							<Link className="image" to="/">
-								<h1><span className="brand">&lt;/&gt; syaifulstyle</span></h1>
-								{/*<h1><span className="brandChange">&lt;/&gt;</span></h1>*/}
+								<h1 className="brand">&lt;/&gt;
+									<div className="rotate-words">
+										<span> syaifulstyle</span>
+										<span> Your So Awesome</span>
+										<span> Test</span>
+									</div>
+								</h1>
 							</Link>
 							<label className="menu_icon" htmlFor="toggle"><BsListUl /></label>
 						</div>
@@ -41,7 +46,7 @@ export default function Navbar() {
 									<Link to="/about"><span><FaYoutube/></span></Link>
 								</li>
 								<li className="link-item">
-									<Link to="/about"><span><FaFacebookSquare/></span></Link>
+									<Link to="/about"><span><ImInstagram/></span></Link>
 								</li>
 							</div>
 						</ul>

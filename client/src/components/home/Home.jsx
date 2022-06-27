@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import { PopularArticle } from './Content';
-import { Youtube } from './FollowPage';
+import { Youtube, Instagram, Linkedin } from './FollowPage';
 
 const Home = () => {
 	return(
@@ -35,10 +35,10 @@ const Home = () => {
 										<h3>Follow Me</h3>
 										<div className="row">
 											<div className="col-4">
-												<Youtube />
+												<Instagram />
 											</div>
 											<div className="col-4">
-												<Youtube />
+												<Linkedin />
 											</div>
 											<div className="col-4">
 												<Youtube />
