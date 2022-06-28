@@ -145,6 +145,12 @@
 							}
 						}
 					}
+					.link-item:hover{
+						animation: shake .25s;
+					}
+					.link-item:hover{
+						outline-offset: 4px;
+					}
 				}
 			}
 			.navbar-item{

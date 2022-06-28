@@ -36,16 +36,16 @@ export default function Navbar() {
 								<Link to="/contact" className="navbar-item navbar-item-ltr">Contact</Link>
 							</li>
 							<div className="social-icon">
-								<li className="link-item">
+								<li className="link-item github--icon">
 									<Link to="/about"><span><FaGithubSquare/></span></Link>
 								</li>
-								<li className="link-item">
+								<li className="link-item linkedin--icon">
 									<Link to="/about"><span><ImLinkedin/></span></Link>
 								</li>
-								<li className="link-item">
+								<li className="link-item youtube--icon">
 									<Link to="/about"><span><FaYoutube/></span></Link>
 								</li>
-								<li className="link-item">
+								<li className="link-item instagram--icon">
 									<Link to="/about"><span><ImInstagram/></span></Link>
 								</li>
 							</div>

@@ -1,6 +1,7 @@
 .icon-page{
 	display: flex;
 	column-gap: 25px;
+	margin-left: 1.3rem;
 }
 .icon-item{
 	width: 60px;
@@ -19,7 +20,22 @@
 .icon-item:hover{
 	outline-offset: 4px;
 }
-.youtube--icon:hover{
+.icon-item:hover{
+	animation: shake .25s;
+}
+.instagram--icon:hover{
 	background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 	outline-color: #a02d76;
+}
+.linkedin--icon:hover{
+	background-image: linear-gradient(90deg, rgba(0,119,181,1) 40%, rgba(13,192,237,0.6937149859943977) 92%);
+	outline-color: #0077b5;
+}
+.youtube--icon:hover{
+	background-image: linear-gradient(90deg, rgba(25,13,237,0.6937149859943977) 0%, rgba(255,0,24,1) 100%);
+	outline-color: red;
+}
+.github--icon:hover{
+	background-image: linear-gradient(90deg, rgba(7,11,11,0.6937149859943977) 14%, rgba(174,16,180,1) 76%, rgba(174,16,180,1) 80%);
+	outline-color: #2ea44f;
 }

@@ -32,7 +32,7 @@ const Home = () => {
 								</div>
 								<div className="follow-page">
 									<div className="title">
-										<h3>Follow Me</h3>
+										<h3>Follow Me On</h3>
 										<div className="row">
 											<div className="col-4">
 												<Youtube />
