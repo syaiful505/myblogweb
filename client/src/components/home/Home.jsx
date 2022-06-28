@@ -35,13 +35,13 @@ const Home = () => {
 										<h3>Follow Me</h3>
 										<div className="row">
 											<div className="col-4">
-												<Instagram />
+												<Youtube />
 											</div>
 											<div className="col-4">
 												<Linkedin />
 											</div>
 											<div className="col-4">
-												<Youtube />
+												<Instagram />
 											</div>
 										</div>
 									</div>
