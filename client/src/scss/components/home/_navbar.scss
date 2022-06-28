@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 .navbar{
+	font-family: 'Teko', sans-serif;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -108,7 +110,7 @@
 				display: flex;
 				justify-content: flex-end;
 				align-items: center;
-				grid-column-gap: 10px;
+				grid-column-gap: 2rem;
 				.link-item{
 					a.image{
 						margin-left: -8px;

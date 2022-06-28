@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import { PopularArticle } from './Content';
 import { Youtube, Instagram, Linkedin } from './FollowPage';
+import { CategoryList } from './Category';
+import { Tag } from './molecules/Tag';
 
 const Home = () => {
 	return(
@@ -46,6 +48,10 @@ const Home = () => {
 										</div>
 									</div>
 								</div>
+								<div className="category">
+									<CategoryList />
+								</div>
+								<Tag />
 							</div>
 						</div>
 					</div>

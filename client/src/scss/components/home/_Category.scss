@@ -1,0 +1,24 @@
+.cate-list{
+	padding: 0rem .6rem .6rem .6rem;
+	.cate-item{
+		display: flex;
+		justify-content: space-between;
+		padding: .5rem 0rem;
+		cursor: pointer;
+		transition: all .5s;
+		li{
+			display: flex;
+			column-gap: .5rem;
+			align-items: center;
+			a{
+				color: var(--text_color);
+				font-size: 1rem;
+				font-weight: 700;
+				transition: all .5s;
+				&:hover{
+					color: #ff9800;
+				}
+			}
+		}
+	}
+}
