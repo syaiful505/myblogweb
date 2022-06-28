@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export function Tag() {
+export const Tag = () => {
 	return (
 		<>
 			<div className="tag">

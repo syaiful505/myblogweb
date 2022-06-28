@@ -4,7 +4,7 @@ import { FaYoutube,FaGithubSquare } from "react-icons/fa";
 import { ImLinkedin, ImInstagram } from "react-icons/im";
 import { BsListUl } from "react-icons/bs";
 
-export default function Navbar() {
+export function Navbar() {
 	return (
 		<div id='navbar' className="navbar">
 			<div className="container">

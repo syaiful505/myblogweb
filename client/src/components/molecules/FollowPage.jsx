@@ -2,6 +2,27 @@ import React from 'react';
 import { FaYoutube } from "react-icons/fa";
 import { ImLinkedin, ImInstagram } from "react-icons/im";
 
+export function FollowPage() {
+	return (
+		<div className="follow-page">
+			<div className="title">
+				<h3>Follow Me On</h3>
+				<div className="row">
+					<div className="col-4">
+						<Youtube />
+					</div>
+					<div className="col-4">
+						<Linkedin />
+					</div>
+					<div className="col-4">
+						<Instagram />
+					</div>
+				</div>
+			</div>
+		</div>
+	)
+}
+
 export function Youtube() {
 	return (
 		<div className="icon-page">
