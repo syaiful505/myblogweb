@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag, FollowPage, PopularArticle, CategoryList, SearchBox } from '../../../molecules';
+import { Tag, FollowPage, PopularArticle, CategoryList, SearchBox } from '../../../../molecules';
 
 export const Right = () => {
   return (

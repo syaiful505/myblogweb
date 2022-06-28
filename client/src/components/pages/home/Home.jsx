@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from '../../molecules';
-import { Main } from './content';
+import { Main } from './content/first';
 
 const Home = () => {
 	return(
